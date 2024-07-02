@@ -1,0 +1,6 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference------------------------------------------------css properties
+https://zellwk.com/blog/9-important-css-properties-you-must-know/-----------------------------------------the 9 important CSS properties
+https://www.w3schools.com/css/css_positioning.asp---------------------------------------------------------to visualize the effects values of position property
+https://www.w3schools.com/css/css_dimension.asp-----------------------------------------------------------to visualize the effects values of width and height properties
+https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-webdesign-project-e1ad48f1adfa/--Google Fonts in your website
+https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website-------------------------------------To add custom fonts locally
