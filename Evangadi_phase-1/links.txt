@@ -4,3 +4,4 @@ https://www.w3schools.com/css/css_positioning.asp-------------------------------
 https://www.w3schools.com/css/css_dimension.asp-----------------------------------------------------------to visualize the effects values of width and height properties
 https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-webdesign-project-e1ad48f1adfa/--Google Fonts in your website
 https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website-------------------------------------To add custom fonts locally
+https://youtu.be/nSst4-WbEZk?si=oISr_43xjrY6wNaR----------------------------------------------------------css box model

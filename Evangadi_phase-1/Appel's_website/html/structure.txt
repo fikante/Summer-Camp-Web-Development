@@ -1,0 +1,221 @@
+### GENERAL STRUCTRUE OF APPLE WEBSITEE ###
+
+# outer wrapper
+
+#header wrapper-header
+    -internal wrapper-nav, ul
+        - apple's logo wrapper-ls
+            -display logo image 
+            -link to home page
+            close logo wrapper
+        - header link wrapper-ls
+            -link all the pages with their destination
+            close header link wrapper
+        - search wrapper-ls
+            -show the search engine image
+            -link to the search page
+            close search wrapper
+        - cart wrapper-ls
+            -show the cart image
+            -link to the proper destination
+            close the cart wrapper
+        close the internal wrapper
+    close the header wrapper-ls
+
+# first section wrapper
+    -internal wrapper
+        -model wrapper
+            -display model
+            close model wrapper
+        -title wrapper
+            -display title
+            close 
+        -description wrapper
+            -show description
+            close
+        -first link wrapper
+            -link to the proper destination
+            close
+        -first main image wrapper
+            -display image
+            close
+        close internal wrapper
+    close first section wrapper
+
+# second section wrapper
+    -internal wrapper
+        -title wrapper
+            -display title
+            close 
+        -description wrapper
+            -show description
+            close
+        -price wrapper
+            -show the price
+            close
+        -related link wrapper
+            -link to the proper destination
+            close
+        -second main image wrapper
+            -display image
+            close
+        close internal wrapper
+    close second section wrapper
+
+# third section wrapper
+    -internal wrapper
+        -title wrapper
+            -display title
+            close 
+        -description wrapper
+            -show description
+            close
+        -price wrapper
+            -show the price
+            close
+        -related link wrapper
+            -link to the proper destination
+            close
+        -third main image wrapper
+            -display image
+            close
+        close internal wrapper
+    close first section wrapper
+
+#fourth section wrapper
+    -internal wrapper
+        -left side wrapper
+            -top left log wrapper
+                    -display logo
+                    close 
+                close
+            -description wrapper
+                -show the description
+                close
+            -related link wrapper
+                -link to the proper destination
+                close
+            -fourth-1 image wrapper
+                -display image 
+                close
+            close
+        -right side wrapper
+            -logo wrapper
+                -display logo
+                close 
+            -description wrapper
+                -show the description
+                close
+            -related link wrapper
+                -link to the proper destination
+                close
+            -fourth-2 image wrapper
+                -display image 
+                close
+            close
+        close
+    close
+
+#fifth section wrapper
+    -internal wrapper
+        -left side wrapper
+            -logo wrapper
+                -display logo
+                close 
+            -description wrapper
+                -show the description
+                close
+            -related link wrapper
+                -link to the proper destination
+                close
+            -fifth-1 image wrapper
+                -display image 
+                close
+        -right side wrapper
+            -logo wrapper
+                -display logo
+                close 
+            -description wrapper
+                -show the description
+                close
+            -related link wrapper
+                -link to the proper destination
+                close
+            -fifth-2 image wrapper
+                -display image 
+                close
+        close
+    close   
+
+#sixth section wrapper
+    -internal wrapper
+        -left side wrapper
+            -logo wrapper
+                -display logo
+                close 
+            close
+            -description wrapper
+                -show the description
+                close
+            -related link wrapper
+                -link to the proper destination
+                close
+            -sixth-1 image wrapper
+                -display image 
+                close
+            close
+        -right side wrapper
+            -logo wrapper
+                -display logo
+                close 
+            -description wrapper
+                -show the description
+                close
+            -related link wrapper
+                -link to the proper destination
+                close
+            -sixth-2 image wrapper
+                -display image 
+                close
+            close
+        close
+    close   
+
+#footer wrapper
+    -internal wrapper
+        -upper paragraph wrapper
+            -show the text
+            close
+        -footer link wrapper
+            -link-1 wrapper
+                -link to proper destination
+                close
+            -link-2 wrapper
+                -link to proper destination
+                close
+            -link-3 wrapper
+                -link to proper destination
+                close
+            -link-4 wrapper
+                -link to proper destination
+                close
+            -link-5 wrapper
+                -link to proper destination
+                close
+            close
+        -my apple wrapper
+            close
+        -copyright container
+            -copyright wrapper
+                close
+            -footer link terms
+                close
+            -footer country
+                close
+            close 
+        close
+    close
+
+close the outer wrapper
+
+
