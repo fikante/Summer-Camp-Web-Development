@@ -1,0 +1,184 @@
+MOST COMMON CSS PROPERTIES 
+
+    #1 DISPLAY
+        determine how elements are going to be displayed on the browser
+        default assumption is "block"
+        
+        -block
+        -none
+        -inline-block
+        -flex
+        Ex: display: inline-block
+    
+    #2 POSITION
+        used to set the relative place or location of a given element in web browser
+
+        -relative 
+        -absolute
+        -fixed 
+        -static
+    
+    #3 WIDTH AND HEIGHT
+        used to set the dimension of elements on a browser
+
+        -width 
+        -height
+        -max-width
+        -min-width
+        -auto
+        -In px, em, rem, %, auto, inherit,etc ...
+    
+    #4 MARGIN AND PADDING
+        margin : is outside the border
+        padding : is inside the border
+
+        #Representation
+            margin-top
+            margin-right
+            margin-bottom
+            margin-left
+        #simplified
+
+    #5 BORDER
+        Identifes the border of an element
+
+        #Representation
+            border-width
+            border-style
+            border-color
+            border-left
+            border-right and etc...
+            Ex:1px, solid, black
+
+    #6 BACKGROUND 
+        controls the background of html element
+
+        #Representation
+            background-color
+            background-image
+            background-position 
+    
+    #7 Font-Family
+        to determine the font to be used when text is displayed
+
+        # Representation
+            font-Family
+            font-size
+            font-weight
+            font-style
+            line-height
+
+    #8 COLOR 
+        color of text, border, background
+        # text color
+            From CSS Version 3, there are five main ways to reference a color.
+
+                By RGB value: RGB is a color model that adds the colors red (R), green (G) and blue (B) together to create colors. This is based on how the human eye sees colors.
+                    p { 
+                        color: rgb(255, 0, 0); 
+                    }
+                By RGBA value: RGBA is an extension of RGB that add an alpha (A) channel. The alpha channel represents the opacity, or transparency, of the color.
+                    p { 
+                        color: rgba(255, 0, 0, 0.8); 
+                    }
+                By HSL value: HSL is a newer color model defined as Hue (H), Saturation (S) and Lightness (L). The aim of the model is to simplify mental visualization of the color that the value represents. 
+                    Think of a rainbow that has been turned into a full circle. This represents the Hue. The Hue value is the degree value on this circle, from 0 degrees to 360 degrees. 0 is red, 120 is green and 240 is blue.
+                    p { 
+                        color: hsl(0, 100%, 50%);
+                    }
+                By hex value: Colors specified using hexadecimal are prefixed with a # symbol followed by the RGB value in hexadecimal format.
+                    For example, the color red which is RGB 255,0,0 would be written as hexadecimal #FF0000.
+
+                By predefined color names: Modern web browsers support 140 predefined color names. These color names are for convenience purposes and can be mapped to equivalent hex/RGB/HSL values.
+                    black,silver,gray,white,maroon,red,purple,fuchsia,green,lime,olive,yellow,navy,blue,teal,aqua
+
+    #9 PRIORITY ORDER
+        The most specific definition gets the PRIORITY
+        ! important gets precedence
+        Inline styling gets precedence over class definitions 
+            Ex: <div style="display: block; class="class-defn">
+        If you use the same selector but different property values the the one which is written at the last
+            note: but it cannot get the PRIORITY from the one which is written more specifically
+                Ex: .myHeader h1{
+                    font-size:30px;
+                    }
+                    h1{
+                        font-size:40px;
+                    }
+                the first one gets the PRIORITY because it is written more specifically
+
+
+
+
+#####CLASS PROJECT 1
+********************
+
+    REBUILDING apple's.com Home page 
+    ********************************
+
+    Website/Application/Software development lifecyle(SDLC)
+    *******************************************************
+
+    #Requirement
+    ************
+    -what is the goal we want to acheive?
+    -How can the website help to acheive that?
+        -Research phase 
+        -Analysis and Scoping phase
+    -Design
+        -content development phase
+        -wire-frame phase
+        -design phase(designer)
+    -Development
+        -website development phase
+
+    -Testing phase
+
+    -Launch
+
+    -Maintenance
+
+    #Web development phase
+    **********************
+
+    -Team Philosophies
+        #Waterfall: launching all the result or product once all the application is completed
+            #requirement
+                -solid decisions
+            #pros: to surprise the user side
+            #cons: lead to backrupcy if the product fails
+            #old system
+        #Agile: launching minimum part of the product then add some on top of that rather than launching all at once
+            #pros: to save money if the product fails
+            #moder company systems
+
+            #Way of managing your team if you follow agile team Philosophy
+                #Let say there is 144 developers
+                #Let say there are 500 pages to do on apple website
+                #Let say the have to submit the final website after 6 months
+                > Scrum
+                    -set the maximum number of developers in one team
+                        Ex: Amazon(two pizza rule)---12 worker in one team the there is 12 team for 144 total developers
+                    -one director for the 12 teams 
+                    -one team has one team lead(1) who is senior deverloper with total assumption of 30% senior(4), 50% mid-level developer(6) and 20% of juniour developer(2)
+                    -The director divide the 500 pages eaqually to the 12 teams(41 for each) 
+                > Scrum Master 
+                    -Daily meeting
+                    -Weekly progress report
+                    -Sprint Review
+                    -Launch
+                > Sprints
+                    -divide the total time given for the project by 15 days which is 12 sprints for the above case(how many times the webseite is launched until it is completed)
+                    -what is launched is decided by the team leaders(the will decide what things are gonna be launched for the first 5 sprints)
+                        Is it doable?
+                        Ex:#Initial sprint
+                            Home-page 
+                           The 7 Landing pages
+                           MVP(minimum viable product)(10 additional pages): aims to validate a product idea with minimal resources and development time.
+                           A total of 17 launch
+                           30days
+                        # 2nd sprint
+                            20pages
+                        #3rd spirit
+                            30pages
+                        .........
