@@ -1,0 +1,26 @@
+https://thenounproject.com/---------------------------------------------------------------Icons and Photos For Everything
+
+
+
+
+
+
+
+
+
+
+
+
+
+.enjoy{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: Linear-gradient(rgba(0,0,0,0.3)), rgba(0, 0, 0, 0.7), url(../img/cta.webp);
+    background-size: cover;
+    background-position: center;
+}

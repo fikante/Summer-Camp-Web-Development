@@ -1,0 +1,34 @@
+### Restaurant Website ###
+
+# Header structure
+    header-wrapper
+        header-internal-wrapper
+            logo-wrapper
+                image
+            close
+            navlinks-wrapper
+                ul lists of images
+            close
+            navicons-wrapper
+                ul lists of icons
+            close
+        close
+    close
+
+# Section1 structure
+    section1-wrapper
+        section1-internal-wrapper
+            style wrapper
+                text
+            close
+            tittle wrapper
+                tittle
+            close
+            description wrapper
+                brief description
+            close
+            button wrapper
+                shop button
+            close
+        close
+    close
