@@ -2,7 +2,7 @@
 
 # outer wrapper
 
-#header wrapper-header
+#header-wrapper
     -internal wrapper-nav, ul
         - apple's logo wrapper-ls
             -display logo image 
