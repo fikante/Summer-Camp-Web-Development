@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
 img {
     max-width: 100%;
+}
+body{
+    cursor: pointer;
 }
 /* Body styling */
 body{
@@ -188,7 +190,8 @@ body{
     text-decoration: none;
 }
 .link-wrapper ul li a:hover{
-    color:#000;
+    color:#0ca707;
+    transform: translateY(-6px);
 }
 .link-wrapper ul li a:after{
     font-family: "FontAwesome";
